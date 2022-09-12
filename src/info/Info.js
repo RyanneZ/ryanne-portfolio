@@ -5,8 +5,6 @@ import project4 from "../img/project4.png"
 
 import project1 from '../img/project1.png'
 
-/* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
-how to make this template work best for you! */
 
 export let colors = ["#fc1973", "#0663d0"];
 /*

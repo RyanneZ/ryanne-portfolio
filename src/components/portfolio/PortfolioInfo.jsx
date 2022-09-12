@@ -73,9 +73,6 @@ function PortfolioInfo(props) {
               </Box>
         
             </CardContent>
-            {/* <CardActions>
-              <Button size="small">Learn More</Button>
-            </CardActions> */}
             </CardActionArea>
         </Card>
       </>

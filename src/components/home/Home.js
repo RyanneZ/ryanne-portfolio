@@ -31,8 +31,7 @@ export default function Home() {
                ))}
               
                <a href = {PDF} target = "_blank" style={{display: 'flex', alignItems: 'center'}}><iconify-icon icon="clarity:document-solid"></iconify-icon></a>
-      
-               
+               <a href="mailto:ryannezhuo@gmail.com" style={{display: 'flex', alignItems: 'center'}}><iconify-icon icon="ic:round-email"></iconify-icon></a>
             </Box>
          </Box>
       </Box>

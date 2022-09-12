@@ -39,7 +39,7 @@ function PortfolioInfo(props) {
    return (
       <>
         <Card sx={{ minWidth: 275 }}>
-          <CardActionArea>
+    
             <CardContent>
               <Typography  component="div">
                 <span  style={{background: gradient, WebkitTextFillColor: 'transparent', WebkitBackgroundClip: 'text', fontSize: '2rem'}}>{title}</span>
@@ -73,7 +73,7 @@ function PortfolioInfo(props) {
               </Box>
         
             </CardContent>
-            </CardActionArea>
+         
         </Card>
       </>
    );

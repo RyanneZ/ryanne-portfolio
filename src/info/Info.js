@@ -2,8 +2,8 @@ import self from "../img/self1.png"
 import project2 from "../img/project2.png"
 import project3 from "../img/project3.png"
 import project4 from "../img/project4.png"
-
 import project1 from '../img/project1.png'
+import PDF from '../documents/resume.pdf'
 
 
 export let colors = ["#fc1973", "#0663d0"];
@@ -52,14 +52,25 @@ export const info = {
 
         {
             link: "https://github.com/RyanneZ/",
-            icon: "fa fa-github",
-            label: 'github'
+            icon: "ion:logo-github",
+            label: 'Github'
         },
         {
             link: "https://www.linkedin.com/in/ryannezhuo/",
-            icon: "fa fa-linkedin",
-            label: 'linkedin'
+            icon: "akar-icons:linkedin-box-fill",
+            label: 'Linkedin'
         },
+        {
+            link: PDF,
+            icon: "bxs:file-pdf",
+            label: 'Resume'
+        },
+        {
+            link: "mailto:ryannezhuo@gmail.com",
+            icon: "ic:baseline-email",
+            label: 'Email Me'
+        },
+      
       
         
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!

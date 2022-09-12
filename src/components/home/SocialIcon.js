@@ -1,12 +1,17 @@
+import { dividerClasses } from '@mui/material';
 import React from 'react';
 
 function SocialIcon(props) {
     const {link, icon, label} = props;
     return (
-        <a target="_blank" aria-label={label}
-           rel="noopener noreferrer" href={link}>
-            <i className={icon} aria-hidden="true"/>
-        </a>
+        <div>
+            <a target="_blank" aria-label={label}
+            rel="noopener noreferrer" href={link}>
+                <iconify-icon icon={icon}></iconify-icon>
+            </a>
+            {/* <p style={{fontSize: '0.7rem'}}>{label}</p> */}
+        </div>
+       
     );
 }
 

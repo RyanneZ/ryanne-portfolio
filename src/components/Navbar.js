@@ -4,6 +4,7 @@ import Toggler from "./home/Toggler";
 import {Link, useLocation} from "react-router-dom";
 import {Box} from "@mui/material";
 import {info} from "../info/Info";
+import PDF from '../documents/resume.pdf'
 
 const links = [
     {
@@ -27,7 +28,9 @@ const links = [
         name: 'Portfolio',
         to: '/portfolio',
         active: 'portfolio'
-    }
+    },
+
+
 ]
 
 export default function Navbar({darkMode, handleClick}) {
@@ -46,8 +49,10 @@ export default function Navbar({darkMode, handleClick}) {
                             {!link.type && <p style={{marginBottom: '0.4rem',fontSize: '1.2rem'}}>{link.name}</p>}
                             {link.type && <span style={{background: info.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', fontFamily: ' cursive', fontSize: '3rem'}} >{link.name}</span>}
                         </Link>
+                       
                     </Box>
                 ))}
+                 <a href = {PDF} target = "_blank" ><p style={{marginBottom: '0.4rem',fontSize: '1.2rem'}}>Resume</p></a>
                 <li>
                     <Toggler darkMode={darkMode} handleClick={handleClick}/>
                 </li>

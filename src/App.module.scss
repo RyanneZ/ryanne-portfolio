@@ -14,6 +14,11 @@ body {
     box-sizing: border-box;
 }
 
+.buttonColor{
+    color: black !important;
+    background-color: "red" !important;
+}
+
 li {
     color: $dark;
 }
@@ -45,3 +50,4 @@ ul {
 .contact {
   width: 10rem !important
 }
+

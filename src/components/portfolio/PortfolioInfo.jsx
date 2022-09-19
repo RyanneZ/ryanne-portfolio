@@ -60,15 +60,15 @@ function PortfolioInfo(props) {
               <Box className={'portfolio'} display={'flex'} flexDirection={'row'} gap={'0.5rem'}
                 alignItems={'center'} fontSize={'1rem'} py={'2rem'}>
             
-                <Button variant="outlined">
+                <Button variant="outlined" className='buttonColor ' >
                   <iconify-icon icon="akar-icons:link-chain"></iconify-icon>
-                  <IconLink link={live} title={'Live Demo'} />
+                  <IconLink link={live} title={'Live Demo'}className='buttonColor '/>
                 </Button>
                 
 
-                <Button variant="outlined">
+                <Button variant="outlined" className='buttonColor '>
                   <iconify-icon icon="akar-icons:github-fill"></iconify-icon>
-                  <IconLink link={source} title={'Source Code'} />
+                  <IconLink link={source} title={'Source Code'}  />
                 </Button>
               </Box>
         

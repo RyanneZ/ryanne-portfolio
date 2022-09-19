@@ -67,22 +67,7 @@ export default function Home() {
               style={{ display: "flex" }}
             />
           ))}
-          {/* <div className='contact'>
-                  <a href = 'https://github.com/RyanneZ/' target = "_blank" ><iconify-icon icon="ion:logo-github"></iconify-icon></a>
-                  <p  style={{fontSize: '0.7rem'}}>Github</p>
-               </div>
-               <div>
-                  <a href = "https://www.linkedin.com/in/ryannezhuo/" target = "_blank" ><iconify-icon icon="akar-icons:linkedin-box-fill"></iconify-icon></a>
-                  <p  style={{fontSize: '0.7rem'}}>Linkedin</p>
-               </div>
-               <div>
-                  <a href = {PDF} target = "_blank" ><iconify-icon icon="ant-design:file-pdf-filled"></iconify-icon></a>
-                  <p  style={{fontSize: '0.7rem'}}>Resume</p>
-               </div>
-               <div>
-                  <a href="mailto:ryannezhuo@gmail.com" ><iconify-icon icon="ic:baseline-email"></iconify-icon></a>
-                  <p style={{fontSize: '0.7rem'}}>Email Me</p>
-               </div> */}
+
         </Box>
       </Box>
     </Box>

@@ -175,7 +175,7 @@ export const info = {
             live: "https://ryannez.github.io/Five-Letters/",
             source: "https://github.com/RyanneZ/Five-Letters",
             image: project4,
-            description: 'This game is called "Five Letters". As a user, you can uess the word in six tries. Each guess must be a valid five-letter word. After enter you answer, hit the enter button to submit. After each guess, the color of the boxs will change to show how close your guess was to the word.',
+            description: 'This game is called "Five Letters". As a user, you can guess the word in six tries. Each guess must be a valid five-letter word. After enter you answer, hit the enter button to submit. After each guess, the color of the boxs will change to show how close your guess was to the word.',
             technolegies_used: ['JavaScript', 'CSS3', 'HTML5']
         },
 
